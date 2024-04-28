@@ -23,7 +23,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #fff;
+  background: linear-gradient(rgba(0,0,0,1),rgba(15,0,0,1));
   padding: 50px 60px 70px;
   }
 .form-box h1{
