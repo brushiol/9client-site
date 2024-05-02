@@ -42,10 +42,10 @@ body {
   position: relative;
 }
 .form-box2{
-  width: 90%
+  width: 100%
   max-width: 450px;
   position: absolute;
-  top: 40%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%,-50%);
   background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
