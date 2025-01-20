@@ -7,14 +7,14 @@ body {
   box-sizing: border-box;
 }
 
-img { 
+/*img { 
     image-rendering: optimizeSpeed;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: pixelated;
     image-rendering: optimize-contrast;
-}
+}*/
 
 .container{
   width: 100%;
@@ -26,7 +26,7 @@ img {
   }
 
  .form-box{
-  width: 90%
+  width: 90%;
   max-width: 450px;
   position: absolute;
   top: 50%;
@@ -51,7 +51,7 @@ img {
   position: relative;
 }
 .form-box2{
-  width: 100%
+  width: 100%;
   position: absolute;
   top: 0%;
   left: 50%;
