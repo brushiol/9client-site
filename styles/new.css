@@ -25,16 +25,16 @@ body {
   position: relative;
   }
 
- .form-box{
-  width: 90%;
-  max-width: 450px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
-  padding: 50px 60px 70px;
-  }
+.form-box {
+    width: 90%;
+    /*max-width: 450px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
+    padding: 50px 60px 70px;
+}
 .form-box h1{
   font-size: 30px;
   color: #ba1111;
@@ -50,14 +50,14 @@ body {
   color: #ba1111;
   position: relative;
 }
-.form-box2{
-  width: 100%;
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
-  }
+.form-box2 {
+    width: 100%;
+    /*position: absolute;*/
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
+}
 .form-box2 h1{
   font-size: 30px;
   color: #ba1111;
