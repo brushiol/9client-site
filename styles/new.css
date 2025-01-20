@@ -10,7 +10,7 @@ body {
 .container{
   width: 100%;
   height: 100vh;
-  background-image: url(/account/skybox.jpg);
+  background-image: url(/images/skybox.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
