@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9client | home</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the neext line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
     <link href="/styles/new.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
