@@ -24,7 +24,7 @@ body {
   background-size: cover;
   position: relative;
 }
-.topbar {
+#topbar {
     width: 100%;
     height: 5%;
     position: absolute;
