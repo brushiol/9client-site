@@ -21,8 +21,8 @@
                         <input type="text" id="username" placeholder="username">
                     </div>
                     <div class="input-field">
-                        <i class="fa-solid fa-envelope" style=""></i>
-                        <input type="email" id="email" placeholder="email">
+                        <i class="fa-solid fa-key" style=""></i>
+                        <input type="password" id="key" placeholder="invite key">
                     </div>
                     <div class="input-field">
                         <i class="fa-solid fa-lock"></i>
@@ -38,10 +38,10 @@
     <script>
         document.getElementById("signup-button").addEventListener("click", function () {
             const username = document.getElementById("username").value;
-            const email = document.getElementById("email").value;
+            const email = document.getElementById("key").value;
             const password = document.getElementById("password").value;
 
-            if (!username || !email || !password) {
+            if (!username || !key || !password) {
                 alert("all feilds are needed");
                 return;
             }
@@ -51,7 +51,7 @@
             headers: {
             "Content-Type": "application/json"
             },
-            body: JSON.stringify({ username, email, password })
+            body: JSON.stringify({ username, key, password })
             })
             .then(response => response.json())
             .then(data => console.log(data))
