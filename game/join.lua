@@ -1,7 +1,7 @@
 --pcall(function() dofile("rbxasset://avatar.lua") end)
 local playername = "clogad" --change your playername
 local playerid = "1337" -- highly recommend you give one
-local server = "127.0.0.1" (127.0.0.1 is localhost)
+local server = "127.0.0.1" --(127.0.0.1 is localhost)
 local serverport = 53640  -- you usually don't need to change this
 local clientport = 0 -- I recommend leaving it
 
