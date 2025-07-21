@@ -50,7 +50,7 @@ local suc, err = pcall(function()
 client.ConnectionAccepted:connect(connected)
 client.ConnectionRejected:connect(rejected)
 client.ConnectionFailed:connect(failed)
-client:PlayerConnect(server, serverport, clientport, 20)
+client:PlayerConnect(playerid, server, serverport, clientport, 20, -1, playername)
 player.Name = playername 
 player.userId = playerid 
 end)
