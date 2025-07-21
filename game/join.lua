@@ -33,7 +33,7 @@ local loadResolved = false
 local joinResolved = false
 local playResolved = true
 local playStartTime = 0
-
+local ip = "localhost"
 local cdnSuccess = 0
 local cdnFailure = 0
 
