@@ -1,5 +1,3 @@
-%j0kzoTXsIcr9XrzVbVKDemH+TkB/tNCX3BK99z0P7zQWo2UgAzudpNRpmwEdUFWTON9y2BsHpiybW3ocjUtn1/3u7fDYNSiWg7i4PNUc4+iq3+t6BftwVdskyKKhkzz2NSeEIFCLfWKgv6jSUAvhdYQHxgJ0ppKw+tH+tYClwUs=%
-
 -- functions --------------------------
 function onPlayerAdded(player)
 	-- override
