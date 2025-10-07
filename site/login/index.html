@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9client | sign up</title>
+    <title>9client | login page</title>
     <link rel="icon" type="image/x-icon" href="../site/images/favicon.png">
     <link href="../site/styles/new.css" rel="stylesheet" type="text/css" media="all">
     <script src="https://kit.fontawesome.com/fac5bf7509.js" crossorigin="anonymous"></script>
@@ -11,28 +11,24 @@
 <body>
     <div class="container">
         <div class="form-box">
-            <h1>sign up</h1>
-            <form id="signup-form" action="/signup" method="post">
+            <h1>login</h1>
+            <form id="login-form" action="/login" method="post">
                 <div class="input-group">
                     <div class="input-field">
                         <i class="fa-solid fa-user"></i>
                         <input type="text" name="user" placeholder="username">
                     </div>
                     <div class="input-field">
-                        <i class="fa-solid fa-key"></i>
-                        <input type="password" name="key" placeholder="invite key">
-                    </div>
-                    <div class="input-field">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="password" name="password" placeholder="password">
+                        <input type="password" name="pass" placeholder="password">
                     </div>
                 </div>
                 <div class="btn-field">
-                    <input type="submit" value="sign up">
+                    <input type="submit" value="login">
                 </div>
             </form>
             </br>
-            <i>have an account?</i> <a href="../login">login</a>
+            <i>dont have an account?</i> <a href="../signup">signup</a>
         </div>
     </div>
 </body>

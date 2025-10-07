@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9client | sign up</title>
-    <link rel="icon" type="image/x-icon" href="../site/images/favicon.png">
-    <link href="../site/styles/new.css" rel="stylesheet" type="text/css" media="all">
+    <title>avatar editor</title>
+    <link rel="stylesheet" type="text/css" href="../styles/avatar.css"/>
 </head>
+
 <body>
-    <div class="container">
-        <div class="form-box">
-            <h3>im TOUCHING my PEANITS</h3>
-        </div>
+    <div>
+        <fieldset id="invcont">
+            <div id="charcont">
+                <h1 style="font-size: 40px; margin-top: 10px; margin-bottom: 0px;">Avatar Editor</h1>
+                <img id="render" src="https://i1.sndcdn.com/artworks-EfELZGOHYZpkv27h-vySgjQ-t500x500.jpg"></img>
+                <br>
+                <button id="redraw">Redraw</button>
+                <div id="bodyparts">
+                    <div id="rarm" class="limb"></div>
+                    <div id="rleg" class="limb"></div>
+                    <div id="lleg" class="limb"></div>
+                    <div id="larm" class="limb"></div>
+                    <div id="head"></div>
+                    <div id="torso"></div>
+                </div>
+            </div>
+            <br>
+            <details id="hat">
+                <summary>Hats</summary>
+            </details>
+            <details id="face">
+                <summary>Faces</summary>
+            </details>
+            <details id="tshirt">
+                <summary>T-Shirts</summary>
+            </details>
+            <details id="shirt">
+                <summary>Shirts</summary>
+            </details>
+            <details id="pants">
+                <summary>Pants</summary>
+            </details>
+            <details id="gear">
+                <summary>Gears</summary>
+            </details>
+        </fieldset>
     </div>
+    <div id="bcpicker"></div>
 </body>
+<script src="utils.js"></script>
+<script src="avatar.js"></script>
 </html>

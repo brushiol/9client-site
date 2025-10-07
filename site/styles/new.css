@@ -1,29 +1,44 @@
 body {
-  background-color: white;
-  color: black;
-  margin: 0;
-  padding: 0;
-  font-family: Trebuchet MS;
-  box-sizing: border-box;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    image-rendering: pixelated;
 }
 
-/*img { 
-    image-rendering: optimizeSpeed;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: pixelated;
-    image-rendering: optimize-contrast;
-}*/
+.divider { /*you didnt see this*/
+    display: flex;
+    align-items: center;
+}
+
+    .divider::before, .divider::after {
+        flex: 1;
+        content: '';
+        padding: 1px;
+        background-color: #ba1111;
+    }
+
+    .divider::before {
+        margin-right: 25px;
+    }
+
+    .divider::after {
+        margin-left: 25px;
+    }
 
 .container {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../images/skybox.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
+    --img-scale: 10%;
+    --img-size: calc(128 * var(--img-scale));
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/skies.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
+
 #topbar {
     width: 100%;
     height: 5%;
@@ -47,6 +62,7 @@ body {
 .form-box {
     /*width: 90%;*/
     max-width: 450px;
+    min-height: 225px;
     position: relative;
     top: 50%;
     left: 50%;
@@ -54,21 +70,39 @@ body {
     background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
     padding: 50px 60px 70px;
 }
-.form-box h1{
-  font-size: 30px;
-  color: #ba1111;
-  position: relative;
-}
-.form-box h2{
-  font-size: 15px;
-  color: #ba1111;
-  position: relative;
-}
-.form-box h3{
-  font-size: 15px;
-  color: #ba1111;
-  position: relative;
-}
+
+    .form-box .divider {
+        margin-top: -25px;
+    }
+
+    .form-box .link {
+        text-decoration: none;
+        /*color: #ba1111;*/
+    }
+
+    .form-box br {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .form-box h1 {
+        font-size: 30px;
+        color: #ba1111;
+        position: relative;
+    }
+
+    .form-box h2 {
+        font-size: 15px;
+        color: #ba1111;
+        position: relative;
+    }
+
+    .form-box h3 {
+        font-size: 15px;
+        color: #ba1111;
+        position: relative;
+    }
+
 .form-box2 {
     /*width: 100%;*/
     position: relative;
@@ -77,18 +111,21 @@ body {
     transform: translate(-50%,-50%);
     background: linear-gradient(rgba(255,255,255,1),rgba(255,230,230,1));
 }
-.form-box2 h1{
-  font-size: 30px;
-  color: #ba1111;
-  position: relative;
-}
-.form-box2 h2{
-  font-size: 15px;
-  color: #ba1111;
-  position: relative;
-}
-.form-box2 h3{
-  font-size: 15px;
-  color: #ba1111;
-  position: relative;
-}
+
+    .form-box2 h1 {
+        font-size: 30px;
+        color: #ba1111;
+        position: relative;
+    }
+
+    .form-box2 h2 {
+        font-size: 15px;
+        color: #ba1111;
+        position: relative;
+    }
+
+    .form-box2 h3 {
+        font-size: 15px;
+        color: #ba1111;
+        position: relative;
+    }

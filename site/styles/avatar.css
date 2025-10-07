@@ -1,0 +1,130 @@
+body {
+    background-image: url(https://9client.xyz/images/skybox.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 15px;
+    color: #ba1111;
+    font-family: "Trebuchet MS";
+}
+
+#invcont {
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 230, 230, 1));
+    width: 60%;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    #invcont .invitem {
+        width: 10%;
+        height: 10%
+    }
+
+    #invcont details {
+        flex: 1;
+        background: linear-gradient(rgb(255, 218, 218), rgb(255, 207, 207));
+    }
+
+        #invcont details summary {
+            background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 230, 230, 1));
+            padding: 5px 5px 5px 5px;
+        }
+
+#bcpicker {
+    width: 7vw;
+    max-height: 12vw;
+    overflow: scroll;
+    background-color: rgb(64 64 64);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    visibility: collapse;
+}
+
+    #bcpicker div {
+        margin: 0.5%
+    }
+/*#bcpicker div:hover{
+
+        }*/
+
+#bodyparts {
+    justify-content: center;
+    width: 150px;
+    height: 175px;
+    padding: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+    #bodyparts div {
+        background-color: white;
+        box-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
+        position: relative;
+        float: left;
+        border-radius: 4px;
+    }
+
+    #bodyparts .limb {
+        width: 25%;
+        height: 40%;
+    }
+
+    #bodyparts #head {
+        width: 25%;
+        height: 20%;
+        left: calc(50% - 25%/2);
+        top: -40%;
+    }
+
+    #bodyparts #torso {
+        width: 50%;
+        height: 40%;
+        left: calc(50% - 50%);
+        top: -20%;
+    }
+
+    #bodyparts #rarm {
+        top: 20%;
+    }
+
+    #bodyparts #larm {
+        top: 20%;
+    }
+
+    #bodyparts #rleg {
+        top: 60%;
+    }
+
+    #bodyparts #lleg {
+        top: 60%;
+    }
+
+#charcont {
+    min-width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+#redraw {
+    font-size: 12px;
+    color: #ba1111;
+}
+
+#render {
+    max-width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin-top: 25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
